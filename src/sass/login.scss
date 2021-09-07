@@ -1,0 +1,126 @@
+.login {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    163.22deg,
+    rgba(252, 42, 42, 0.69) 13.69%,
+    rgba(250, 171, 79, 0.83) 69.44%
+  );
+  display: flex;
+  flex-direction: column;
+  .login-header {
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+  .login-hero-text {
+    width: 80%;
+    align-self: center;
+    p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+  .login-hero-img {
+    margin-top: 20px;
+    align-self: center;
+  }
+  .login-form {
+    border-radius: 40px 40px 0px 0px;
+    margin-top: 20px;
+    background: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    h2 {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    label {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      color: #000000;
+      align-self: start;
+      padding: 5px;
+      margin-left: 10%;
+    }
+    .mobile-number-section {
+      border: 1px solid #000;
+      display: flex;
+      align-self: center;
+      align-items: center;
+      padding: 5px;
+      border-radius: 15px;
+      width: 80%;
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: #000000;
+      }
+      input {
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        width: 80%;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Firefox */
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    }
+    .password-section {
+      border: 1px solid #000;
+      display: flex;
+      align-self: center;
+      align-items: center;
+      padding: 5px;
+      border-radius: 15px;
+      width: 80%;
+      input {
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        width: 100%;
+      }
+    }
+    .signin-button {
+      align-self: center;
+      padding: 10px 25px;
+      font-size: 18px;
+      margin-top: 20px;
+      border: none;
+      color: #ffffff;
+      font-weight: 500;
+      background: linear-gradient(
+        90deg,
+        rgba(237, 64, 64, 0.84) 15.25%,
+        rgba(235, 160, 47, 0.85) 85.11%
+      );
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
