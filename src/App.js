@@ -5,6 +5,7 @@ import Search from "./pages/Search";
 import Appiontment from "./pages/Appiontment";
 import Chat from "./pages/Chat";
 import Profile from "./pages/Profile";
+import DetailApp from "./pages/DetailAppiontment";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact component={Appiontment} path="/app/appointments" />
           <Route exact component={Chat} path="/app/chat" />
           <Route exact component={Profile} path="/app/profile" />
+          <Route exact component={DetailApp} path="/app/appointments/:id" />
         </Switch>
       </BrowserRouter>
     </div>

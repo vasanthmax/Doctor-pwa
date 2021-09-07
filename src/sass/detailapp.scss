@@ -1,0 +1,153 @@
+.detail-app {
+  display: flex;
+  flex-direction: column;
+  .header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .back-icon {
+      flex: 0.5;
+    }
+    .schedule {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      color: #000000;
+      flex: 1;
+      text-align: center;
+    }
+    .white-space {
+      flex: 0.5;
+    }
+  }
+  .doctor-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    .doctor-image {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      background: #17bde1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        height: 75px;
+        width: 75px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+    .doctor-name {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #000000;
+    }
+    .doctor-prof {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      color: #000000;
+      opacity: 0.6;
+    }
+  }
+  .calendar {
+    align-self: center;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    .react-calendar {
+      border: none;
+    }
+  }
+  .avail-slots {
+    padding: 20px;
+    .avail-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .avail {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+      }
+      .indicator {
+        .available {
+          display: flex;
+          align-items: center;
+          span {
+            margin-right: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #03a500;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+          }
+        }
+        .not-available {
+          display: flex;
+          align-items: center;
+          span {
+            margin-right: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ff0000;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .avail-timings {
+      margin-top: 20px;
+      padding: 20px;
+      background: #ffffff;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      p {
+        padding: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+      }
+    }
+  }
+  .confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .confirm-booking {
+      align-self: stretch;
+      padding: 10px 30px;
+      background: linear-gradient(
+        90deg,
+        rgba(237, 64, 64, 0.85) 17.73%,
+        rgba(235, 160, 47, 0.85) 81.91%
+      );
+      border-radius: 40px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      border: none;
+      color: #ffffff;
+    }
+  }
+}
