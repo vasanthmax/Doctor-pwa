@@ -3,7 +3,11 @@ import BottomNav from "../components/bottomNavigation";
 const Chat = () => {
   return (
     <div className="chat">
-      <h1>Chat</h1>
+      <div className="main-section">
+        <div className="chat-header">
+          <p>Chat</p>
+        </div>
+      </div>
       <BottomNav />
     </div>
   );

@@ -1,0 +1,17 @@
+.chat {
+  .main-section {
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    .chat-header {
+      padding: 20px;
+      p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 27px;
+        color: #000000;
+      }
+    }
+  }
+}
